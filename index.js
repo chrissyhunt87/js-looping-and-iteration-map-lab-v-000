@@ -17,3 +17,8 @@ function nameToAttributes(array) {
   return splitArr;
 }
 
+function attributesToPhrase(array) {
+  for (const obj in array) {
+    return `${obj['name']} is from ${obj['hometown']}`; 
+  }
+}
