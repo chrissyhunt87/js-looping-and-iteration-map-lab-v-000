@@ -15,7 +15,6 @@ function nameToAttributes(array) {
     return Object.assign({}, { firstName: splitName[0], lastName: splitName[1]});
   })
   
-  debugger
   console.log(split.Arr);
   return splitArr;
 }
