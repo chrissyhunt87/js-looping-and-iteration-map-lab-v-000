@@ -18,8 +18,9 @@ function nameToAttributes(array) {
 }
 
 function attributesToPhrase(array) {
-  for (let obj in array) {
-    console.log(obj);
-    return `${obj['name']} is from ${obj['hometown']}`; 
-  }
+  const newArr = array.map(function(obj) {
+    return `${obj['name']} is from ${obj['hometown']}`
+  });
+  
+  return newArr;
 }
