@@ -9,7 +9,6 @@ function lowerCaseDrivers(array) {
 }
 
 function nameToAttributes(array) {
-  console.log(array);
   const splitArr = array.map(function(fullName) {
     const splitName = fullName.split(" ");
     console.log(splitName);
